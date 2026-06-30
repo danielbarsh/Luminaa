@@ -23,8 +23,8 @@ that times each subsystem and graphs frame time live.
 
 ## Screenshots
 
-![Shooting State](screenshots/shooting.PNG) 
-![Idle State](screenshots/idle.PNG)
+![Shooting State](ScreenShots/shooting.PNG) 
+![Idle State](ScreenShots/idle.PNG)
 
 
 ## Controls
