@@ -23,8 +23,8 @@ that times each subsystem and graphs frame time live.
 
 ## Screenshots
 
-![Alt text](/screenshots/shooting.PNG?raw=true "Optional Title")
-![Alt text](/screenshots/idle.PNG?raw=true "Optional Title")
+![Alt text](/Luminaa/tree/master/ScreenShots/shooting.PNG?raw=true "Optional Title")
+![Alt text](/Luminaa/tree/master/ScreenShots/idle.PNG?raw=true "Optional Title")
 
 
 
