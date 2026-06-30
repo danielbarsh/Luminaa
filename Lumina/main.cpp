@@ -6,13 +6,26 @@ void draw(sf::RenderWindow& window);
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "RGP game");
+	//--------------------INITIALIZE-------------------------------------//
+	sf::RenderWindow window(sf::VideoMode({ 1890, 1000 }), "RGP game");
+	sf::CircleShape circle(50.0f);
+	sf::RectangleShape rectangle({100,100});
+	circle.setFillColor(sf::Color::Red);
+	circle.setPosition({ 350,220 });
+	rectangle.setFillColor(sf::Color::Red);
+	rectangle.setOrigin({ 50,50 });
+	rectangle.setPosition(sf::Vector2f(100, 100));
 
+	//--------------------INITIALIZE-------------------------------------//
 	while (window.isOpen()) {
 		
 		update(window);
-	    draw(window);
+	    
 
+		window.clear(sf::Color::Black);
+		window.draw(circle);
+		window.draw(rectangle);
+		window.display();
 	}
 
 
@@ -34,6 +47,9 @@ void draw(sf::RenderWindow& window) {
 
 	window.clear(sf::Color::Red);
 
+	
+
 	window.display();
 
 }
+
