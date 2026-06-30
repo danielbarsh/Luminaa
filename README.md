@@ -21,6 +21,13 @@ that times each subsystem and graphs frame time live.
   averages/max, similar in spirit to the kind of instrumentation you'd want
   around an emulator or SoC functional model. Press `F1` in-game to toggle it.
 
+## Screenshots
+
+![Alt text](/screenshots/shooting.PNG?raw=true "Optional Title")
+![Alt text](/screenshots/idle.PNG?raw=true "Optional Title")
+
+
+
 ## Controls
 
 | Key | Action |
